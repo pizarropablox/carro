@@ -3,7 +3,7 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
     
-    // Validación simple 
+    // Validación 
     if (username === 'user' && password === 'password') {
         localStorage.setItem('isLoggedIn', 'true');
         alert('Login exitoso');
